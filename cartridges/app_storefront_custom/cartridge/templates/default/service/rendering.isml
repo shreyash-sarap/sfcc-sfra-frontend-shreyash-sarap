@@ -1,0 +1,22 @@
+<iscomment> Created a rendering.isml template file to render our content asset </iscomment>
+<isdecorate template="common/layout/page">
+    <isinclude template="components/modules" sf-toolkit="off" />
+    <h1 align="center">${'Footer Your Benefits Section'}</h1>
+    <h2 align="center">${'Where does it come from?'}</h2>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+            <div class="ml-2 mr-5">
+                <iscontentasset aid="ex-5-contentasset" />
+            </div>
+            <div class="mr-5">
+                <iscontentasset aid="ex-5-contentasset" />
+            </div>
+            <div class="mr-5">
+                <iscontentasset aid="ex-5-contentasset" />
+            </div>
+            <div class="mr-5">
+                <iscontentasset aid="ex-5-contentasset" />
+            </div>
+        </div>
+    </div>
+</isdecorate>
