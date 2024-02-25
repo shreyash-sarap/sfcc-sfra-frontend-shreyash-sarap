@@ -1,0 +1,4 @@
+<iscomment> Used the template from base file to access content asset from BM. </iscomment>
+<isinclude template="/components/modules" sf-toolkit="off" />
+<iscomment> Accessed content asset with content id . </iscomment>
+<iscontentasset aid="free-shipping-text" />
