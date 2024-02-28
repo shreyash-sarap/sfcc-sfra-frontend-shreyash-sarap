@@ -3,6 +3,7 @@
     <source src="cartridges/app_storefront_custom/cartridge/client/default/js/components/slider.js" type="script" />
 
     <head>
+        <iscomment> tried this template to fetch slider.js but not working </iscomment>
         <isscript>
         var assets = require('*/cartridge/scripts/assets.js');
         assets.addJs('/js/slider.js');
@@ -21,9 +22,8 @@
             <iscontentasset aid="exercise-6-asset" />
         </div>
     </body>
-
-    <iscomment>
-        <script>
+    <iscomment> using script here because slider.js is not gtting used </iscomment>
+    <script>
         $(".slider-for").slick({
             slidesToShow: 1, 
             asNavFor: ".slider-nav",
@@ -64,6 +64,4 @@
             ]
         });
     </script>
-    </iscomment>
-
 </isdecorate>
