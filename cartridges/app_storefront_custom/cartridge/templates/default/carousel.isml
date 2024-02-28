@@ -1,33 +1,33 @@
 <isdecorate template="common/layout/page">
-    <script src="${pdict.carouselURLs.jqueryslickURL}"></script>
-    <script src="${pdict.carouselURLs.slickURL}"></script>
-    <link rel="stylesheet" type="text/css" href="${pdict.carouselURLs.slickbasicURL}" />
-    <link rel="stylesheet" type="text/css" href="${pdict.carouselURLs.slickthemeURL}" />
-    <iscomment>
-        I commented this code because it was not working.
+    <isinclude template="/components/modules" sf-toolkit="off" />
+    <source src="cartridges/app_storefront_custom/cartridge/client/default/js/components/slider.js" type="script" />
+
+    <head>
         <isscript>
-        assets.addCss('/scss/carousel/carousel.scss');
-        assets.addJs('/js/components/carousel.js');
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/slider.js');
+        assets.addCss('/css/slider.css');
         </isscript>
-    </iscomment>
-    <span>&nbsp;</span>
-    <div align="center" class="slider-for" data-slick='{"slidesToShow": 1, "asNavFor": ".slider-nav"}'>
-        <isloop items="${pdict.imageURLs}" var="image">
-            <span><img src="${image}" alt="random-image" /></span>
-        </isloop>
-    </div>
-    <span>&nbsp;</span>
-    <div align="center" class="slider-nav">
-        <isloop items="${pdict.imageURLs}" var="image">
-            <span><img src="${image}" alt=" random-image" /></span>
-        </isloop>
-    </div>
-    <iscomment> Kept the script here because it is not working in client carousel.js file </iscomment>
-    <script>
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+        <script src="${pdict.carouselURLs.jqueryslickURL}"></script>
+        <script src="${pdict.carouselURLs.slickURL}"></script>
+    </head>
+
+    <body>
+        <div>
+            <iscontentasset aid="exercise-6-asset" />
+        </div>
+    </body>
+
+    <iscomment>
+        <script>
         $(".slider-for").slick({
+            slidesToShow: 1, 
+            asNavFor: ".slider-nav",
             arrows: true,
-            prevArrow: '<img src="https://cdn.shopify.com/s/files/1/0525/4699/4359/files/left.png" style="width:48px;z-index:2;position:absolute;top:48%;left:0%;cursor:pointer">',
-           nextArrow: '<img src="https://pixsector.com/cache/ef1ee4a1/av85f1b171d762037fe92.png" style="width:40px;z-index:2;position:absolute;top:50%;right:0%;cursor:pointer">',
         });
         $(".slider-nav").slick({
             centerMode: true,
@@ -35,8 +35,6 @@
             dots: true,
             centerPadding: '0px',
             slidesToShow: 3,
-            prevArrow: '<img src="https://cdn.shopify.com/s/files/1/0525/4699/4359/files/left.png" style="width:48px;z-index:2;position:absolute;top:38%;left:0%;cursor:pointer">',
-           nextArrow: '<img src="https://pixsector.com/cache/ef1ee4a1/av85f1b171d762037fe92.png" style="width:40px;z-index:2;position:absolute;top:40%;right:0%;cursor:pointer">',
             responsive: [
                 { 
                     breakpoint: 1280,
@@ -66,4 +64,6 @@
             ]
         });
     </script>
+    </iscomment>
+
 </isdecorate>
