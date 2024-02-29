@@ -1,5 +1,3 @@
-"use strict";
-
 $(".slider-for").slick({
     slidesToShow: 1,
     asNavFor: ".slider-nav",

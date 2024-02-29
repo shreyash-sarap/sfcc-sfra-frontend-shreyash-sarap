@@ -1,67 +1,7 @@
 <isdecorate template="common/layout/page">
     <isinclude template="/components/modules" sf-toolkit="off" />
-    <source src="cartridges/app_storefront_custom/cartridge/client/default/js/components/slider.js" type="script" />
-
-    <head>
-        <iscomment> tried this template to fetch slider.js but not working </iscomment>
-        <isscript>
-        var assets = require('*/cartridge/scripts/assets.js');
-        assets.addJs('/js/slider.js');
-        assets.addCss('/css/slider.css');
-        </isscript>
-        <link rel="stylesheet" type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
-        <link rel="stylesheet" type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
-        <script src="${pdict.carouselURLs.jqueryslickURL}"></script>
-        <script src="${pdict.carouselURLs.slickURL}"></script>
-    </head>
 
     <body>
-        <div>
-            <iscontentasset aid="exercise-6-asset" />
-        </div>
+        <iscontentasset aid="exercise-6-asset" />
     </body>
-    <iscomment> using script here because slider.js is not gtting used </iscomment>
-    <script>
-        $(".slider-for").slick({
-            slidesToShow: 1, 
-            asNavFor: ".slider-nav",
-            arrows: true,
-        });
-        $(".slider-nav").slick({
-            centerMode: true,
-            arrows: true,
-            dots: true,
-            centerPadding: '0px',
-            slidesToShow: 3,
-            responsive: [
-                { 
-                    breakpoint: 1280,
-                    settings: {
-                        centerMode: true,
-                        arrows: true,
-                        centerPadding: '0px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: true,
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        centerMode: true,
-                        arrows: true,
-                        centerPadding: '0px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    </script>
 </isdecorate>
