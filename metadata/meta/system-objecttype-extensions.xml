@@ -414,6 +414,30 @@
                 <field-length>0</field-length>
                 <field-height>2</field-height>
             </attribute-definition>
+            <attribute-definition attribute-id="badgeColor">
+                <display-name xml:lang="x-default">BadgeColor</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="badgeText">
+                <display-name xml:lang="x-default">BadgeText</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="badgeTextColor">
+                <display-name xml:lang="x-default">BadgeTextColor</display-name>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
             <attribute-definition attribute-id="catBannerID">
                 <display-name xml:lang="x-default">Category Banner ID</display-name>
                 <description xml:lang="x-default">Used to define the content asset used to populate a grid page banner for a category. This value is applied to all sub-category navigation (cascading) if no specific catBannerID has been defined for  a sub-category.</description>
@@ -535,6 +559,12 @@
                 <attribute attribute-id="headerMenuOrientation"/>
                 <attribute attribute-id="headerMenuBanner"/>
                 <attribute attribute-id="alternativeUrl"/>
+            </attribute-group>
+            <attribute-group group-id="badgeAttributesGroup">
+                <display-name xml:lang="x-default">Badge Attributes Group</display-name>
+                <attribute attribute-id="badgeTextColor"/>
+                <attribute attribute-id="badgeText"/>
+                <attribute attribute-id="badgeColor"/>
             </attribute-group>
         </group-definitions>
     </type-extension>
