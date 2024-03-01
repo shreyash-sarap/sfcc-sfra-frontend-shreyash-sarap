@@ -5410,6 +5410,19 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <page-attributes/>
     </content>
 
+    <content content-id="desktop-banner-image">
+        <display-name xml:lang="x-default">Tree and Sunset</display-name>
+        <online-flag>true</online-flag>
+        <online-flag site-id="RefArch">true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2 style="text-align: center;"&gt;Desktop Banner Image&lt;/h2&gt;&#13;
+&#13;
+&lt;p style="text-align: center;"&gt;&lt;img alt="" height="439" src="images/DesktopBannerImage/DesktopBannerImage.jpg?$staticlink$" title="" width="705" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="e1e2eab9a8455daecbcceda4e2">
         <display-name xml:lang="x-default">Product Tile Component</display-name>
         <type>component.commerce_assets.productTile</type>
@@ -5595,6 +5608,51 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
 &lt;p style="font-weight:bold;"&gt;如果您无法找到想要找的内容，何不让我们训练有素的员工给您推荐？&lt;/p&gt;&#13;
 &lt;p&gt;我们的客户服务代表可提供帮助。 &lt;a href="$httpsUrl(CustomerService-ContactUs)$"&gt;给我们发电子邮件&lt;/a&gt; 或致电 800-555-0199。&lt;/p&gt;&#13;
 &lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="ex-5-contentasset">
+        <display-name xml:lang="x-default">Full Width Content Asset Template</display-name>
+        <online-flag>false</online-flag>
+        <online-flag site-id="RefArch">true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&#13;
+    &lt;span style="font-size:16px;"&gt;&lt;strong&gt;Where does it come from?&lt;/strong&gt;&lt;/span&gt;&#13;
+  &lt;p&gt;&#13;
+    &lt;span &gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/span&gt;&#13;
+  &lt;/p&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="exercise-6-asset">
+        <display-name xml:lang="x-default">Random Images</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="slider-for"&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=1" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=2" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=3" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=4" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=5" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=6" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=7" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=8" /&gt;&lt;/span&gt;&#13;
+    &lt;/div&gt;&#13;
+    &lt;div class="slider-nav"&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=1" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=2" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=3" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=4" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=5" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=6" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=7" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=8" /&gt;&lt;/span&gt;&#13;
+    &lt;/div&gt;</custom-attribute>
         </custom-attributes>
     </content>
 
@@ -6159,7 +6217,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="Go to Privacy"&gt;Privacy&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'terms')$" title="Go to Terms"&gt;Terms&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Go to Jobs"&gt;Jobs&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
+                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;&#13;
+&lt;span&gt;FOUND IT&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;À propos&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;À propos&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="Aller à À propos de nous"&gt;À propos de nous&lt;/a&gt;&lt;/li&gt;&#13;
@@ -6207,7 +6266,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="$httpsURL('Order-History')$" title="Go to Check Order"&gt;Check Order&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;!-- &lt;li&gt;&lt;a href="$httpsURL('Wishlist-Search')$" title="Go to Wishlist"&gt;Find a Wishlist&lt;/a&gt;&lt;/li&gt; --&gt;&#13;
                 &lt;!-- &lt;li&gt;&lt;a href="$httpsURL('GiftRegistry-Landing')$" title="Go to Gift Registry"&gt;Gift Registry&lt;/a&gt;&lt;/li&gt; --&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer-account --&gt;</custom-attribute>
+                &lt;/ul&gt;&lt;!-- END: footer-account --&gt;&#13;
+&lt;span&gt;FOUND IT&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-account"&gt;Compte&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Compte&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-account"class="menu-footer content"&gt;&#13;
                 &lt;li&gt;&lt;a href="$httpsURL('Account-Show')$" title="Aller à Mon compte"&gt;Mon compte&lt;/a&gt;&lt;/li&gt;&#13;
@@ -6267,6 +6327,30 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="footer-cs">
+        <display-name xml:lang="x-default">Footer Customer Service</display-name>
+        <description xml:lang="x-default">Footer Customer Service Section</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h6&gt;&lt;strong&gt;CUSTOMER SERVICE&lt;/strong&gt;&lt;/h6&gt;&#13;
+    &lt;ul class="footer-cs-list"&gt;&#13;
+    &lt;li class="footer-cs-list-item"&gt;&#13;
+        &lt;p&gt;&lt;strong&gt;Hotline&lt;/strong&gt;&lt;/p&gt;&#13;
+        &lt;p&gt;Monday to Friday: 8:00 AM to 5:00 PM&lt;/p&gt;&#13;
+        &lt;p&gt;1-346-4845-52&lt;/p&gt;&#13;
+    &lt;/li&gt;&#13;
+    &lt;li class="footer-cs-list-item"&gt;&#13;
+        &lt;p&gt;&lt;strong&gt;Services &amp;amp; Help&lt;/strong&gt;&lt;/p&gt;&#13;
+        &lt;ul class="cs-services-faq"&gt;&#13;
+          &lt;li class="cs-services-faq-item"&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&#13;
+        &lt;/ul&gt;&#13;
+    &lt;/li&gt;&#13;
+  &lt;/ul&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="footer-locate-store">
         <display-name xml:lang="x-default">Footer Locate Store</display-name>
         <display-name xml:lang="fr-FR">Pied de page Localiser des magasins</display-name>
@@ -6278,7 +6362,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <page-attributes/>
         <custom-attributes>
             <custom-attribute attribute-id="body" xml:lang="x-default">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Locate Store&lt;/h2&gt;&lt;/a&gt;&#13;
-                &lt;span class="content"&gt;The Store Locator is designed to help you find the closest store near you.&lt;/span&gt;</custom-attribute>
+                &lt;span class="content"&gt;The Store Locator is designed to help you find the closest store near you.&lt;/span&gt;&#13;
+&lt;span&gt;FOUND IT &lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Localiser des magasins&lt;/h2&gt;&lt;/a&gt;&#13;
                 &lt;span class="content"&gt;Le localisateur de magasins vous aide à trouver le magasin le plus proche.&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Trova negozio&lt;/h2&gt;&lt;/a&gt;&#13;
@@ -6354,7 +6439,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Go to Gift Certificates"&gt;Gift Certificates&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Go to Help"&gt;Help&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Go to Site Map"&gt;Site Map&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
+                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;&#13;
+&lt;span&gt;FOUND IT&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;Service client&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Service client&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Aller à Contactez-nous"&gt;Contactez-nous&lt;/a&gt;&lt;/li&gt;&#13;
@@ -6383,6 +6469,85 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往帮助"&gt;寻求帮助&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往站点地图"&gt;站点地图&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="footer-top">
+        <display-name xml:lang="x-default">Footer Top</display-name>
+        <description xml:lang="x-default">Top part of Global Footer</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="footer-top"&gt;&#13;
+  &lt;h1&gt;Footer Your Benefits Section&lt;/h1&gt;&#13;
+  &lt;h3&gt;Where does it come from?&lt;/h3&gt;&#13;
+  &lt;div class="footer-top-content"&gt;&#13;
+    &lt;div class="footer-top-content-col"&gt;&#13;
+      &lt;h6&gt;Where does it come from?&lt;/h6&gt;&#13;
+      &lt;p&gt;&#13;
+        There are many variations of passages of Lorem Ipsum available, but the&#13;
+        majority have suffered alteration in some form, by injected humour, or&#13;
+        randomised words which don’t look even slightly believable. If you are&#13;
+        going to use a passage of Lorem Ipsum, you need to be sure there isn’t&#13;
+        anything embarrassing hidden in the middle of text. All the Lorem Ipsum&#13;
+        generators on the Internet tend to repeat predefined chunks. It uses a&#13;
+        dictionary of over 200 Latin words, combined with a handful of model&#13;
+        sentence structures, to generate Lorem Ipsum which looks reasonable.&#13;
+      &lt;/p&gt;&#13;
+    &lt;/div&gt;&#13;
+    &lt;div class="footer-top-content-col"&gt;&#13;
+      &lt;h6&gt;Where does it come from?&lt;/h6&gt;&#13;
+      &lt;p&gt;&#13;
+        There are many variations of passages of Lorem Ipsum available, but the&#13;
+        majority have suffered alteration in some form, by injected humour, or&#13;
+        randomised words which don’t look even slightly believable. If you are&#13;
+        going to use a passage of Lorem Ipsum, you need to be sure there isn’t&#13;
+        anything embarrassing hidden in the middle of text. All the Lorem Ipsum&#13;
+        generators on the Internet tend tend to repeat predefined chunks. It&#13;
+        uses a dictionary of over 200 Latin words, combined with a handful of&#13;
+        model sentence structures, to generate Lorem Ipsum which looks&#13;
+        reasonable.&#13;
+      &lt;/p&gt;&#13;
+    &lt;/div&gt;&#13;
+    &lt;div class="footer-top-content-col"&gt;&#13;
+      &lt;h6&gt;Where does it come from?&lt;/h6&gt;&#13;
+      &lt;p&gt;&#13;
+        There are many variations of passages of Lorem Ipsum available, but the&#13;
+        majority have suffered alteration in some form, by injected humour, or&#13;
+        randomised words which don’t look even slightly believable. If you are&#13;
+        going to use a passage of Lorem Ipsum, you need to be sure there isn’t&#13;
+        anything embarrassing hidden in the middle of text. All the Lorem Ipsum&#13;
+        generators on the Internet tend to repeat predefined chunks. It uses a&#13;
+        dictionary of over 200 Latin words, combined with a handful of model&#13;
+        sentence structures, to generate Lorem Ipsum which looks reasonable.&#13;
+      &lt;/p&gt;&#13;
+    &lt;/div&gt;&#13;
+    &lt;div class="footer-top-content-col"&gt;&#13;
+      &lt;h6&gt;Where does it come from?&lt;/h6&gt;&#13;
+      &lt;p&gt;&#13;
+        There are many variations of passages of Lorem Ipsum available, but the&#13;
+        majority have suffered alteration in some form, by injected humour, or&#13;
+        randomised words which don’t look even slightly believable. If you are&#13;
+        going to use a passage of Lorem Ipsum, you need to be sure there isn’t&#13;
+        anything embarrassing hidden in the middle of text. All the Lorem Ipsum&#13;
+        generators on the Internet tend to repeat predefined chunks. It uses a&#13;
+        dictionary of over 200 Latin words, combined with a handful of model&#13;
+        sentence structures, to generate Lorem Ipsum which looks reasonable.&#13;
+      &lt;/p&gt;&#13;
+    &lt;/div&gt;&#13;
+  &lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="free-shipping-text">
+        <display-name xml:lang="x-default">Free Shipping over US$ 50.00</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h5 style="text-align: center;"&gt;Free Shipping over US$ 50.00&lt;/h5&gt;</custom-attribute>
         </custom-attributes>
     </content>
 
@@ -6593,6 +6758,87 @@ Per utilizzare un certificato regalo, specifica il codice di 16 cifre nella pagi
         <folder-links>
             <classification-link folder-id="gift-certificates"/>
         </folder-links>
+    </content>
+
+    <content content-id="global-footer-about">
+        <display-name xml:lang="x-default">Global Footer About</display-name>
+        <description xml:lang="x-default">Global Footer About Section</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="global-footer-about"&gt;&#13;
+    &lt;h6&gt;&lt;strong&gt;ABOUT&lt;/strong&gt;&lt;/h6&gt;&#13;
+    &lt;ul class="global-footer-list"&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="Go to About Us"&gt;About Us&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="Go to Privacy"&gt;Privacy&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'terms')$" title="Go to Terms"&gt;Terms&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Go to Jobs"&gt;Jobs&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+    &lt;/ul&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="global-footer-account">
+        <display-name xml:lang="x-default">Global Footer Account</display-name>
+        <description xml:lang="x-default">Global Footer Account Section</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="global-footer-list"&gt;&#13;
+    &lt;h6&gt;&#13;
+        &lt;strong&gt;ACCOUNT&lt;/strong&gt;&#13;
+    &lt;/h6&gt;&#13;
+    &lt;ul class="global-footer-list"&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('Account-Show')$" title="Go to My Account"&gt;My Account&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('Order-History')$" title="Go to Check Order"&gt;Check Order&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('Wishlist-Search')$" title="Go to Wishlist"&gt;Find a Wishlist&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+        &lt;li class="global-footer-list-item"&gt;&#13;
+            &lt;a href="$httpsURL('GiftRegistry-Landing')$" title="Go to Gift Registry"&gt;Gift Registry&lt;/a&gt;&#13;
+        &lt;/li&gt;&#13;
+    &lt;/ul&gt;&lt;!-- END: footer-account --&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="global-footer-copy">
+        <display-name xml:lang="x-default">Global Footer Copyright Signature</display-name>
+        <description xml:lang="x-default">Global Footer Copyright Signature</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="global-footer-copyright"&gt;&#13;
+    &lt;div class="global-footer-copyright-line"&gt;&amp;copy; 2004-2022 Commerce Cloud, a Salesforce company. All Rights Reserved.&lt;/div&gt;&#13;
+    &lt;div class="global-footer-copyright-line"&gt;This is a demo store only. Orders made will NOT be processed.&lt;/div&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="global-footer-more-info">
+        <display-name xml:lang="x-default">Global Footer More Info</display-name>
+        <description xml:lang="x-default">Global Footer More Info Section</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;span&gt;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&lt;/span&gt;</custom-attribute>
+        </custom-attributes>
     </content>
 
     <content content-id="help-telephone">
@@ -8201,6 +8447,17 @@ The possibilities are endless, not to mention the extensive benefits package, tr
                 <position>1.0</position>
             </classification-link>
         </folder-links>
+    </content>
+
+    <content content-id="mastercard-logo">
+        <display-name xml:lang="x-default">Mastercard Logo</display-name>
+        <description xml:lang="x-default">Mastercard Logo</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Mastercard Logo" height="100" src="images/Footer%20Images/Payment/MasterCard.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
     </content>
 
     <content content-id="mens-clothing">
@@ -10613,6 +10870,17 @@ The possibilities are endless, not to mention the extensive benefits package, tr
         </folder-links>
     </content>
 
+    <content content-id="pay-pal-logo">
+        <display-name xml:lang="x-default">Paypal Logo</display-name>
+        <description xml:lang="x-default">Paypal Logo</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Paypal Logo" height="100" src="images/Footer%20Images/Payment/paypal.png?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="payment">
         <display-name xml:lang="x-default">Valid Payment Methods</display-name>
         <display-name xml:lang="fr-FR">Modes de règlement acceptés</display-name>
@@ -11060,6 +11328,17 @@ Consideriamo molto seriamente i diritti relativi alla privacy degli utenti di qu
         </folder-links>
     </content>
 
+    <content content-id="shipping-ground-logo">
+        <display-name xml:lang="x-default">Shipping Ground Logo</display-name>
+        <description xml:lang="x-default">Shipping Ground Logo</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Shipping Ground Logo" height="110" src="images/Footer%20Images/Shipping/201610872016-03-314963542BikeDelivery.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="shipping-methods">
         <display-name xml:lang="x-default">Shipping Methods</display-name>
         <display-name xml:lang="fr-FR">Modes de livraison</display-name>
@@ -11273,6 +11552,17 @@ Consideriamo molto seriamente i diritti relativi alla privacy degli utenti di qu
         </folder-links>
     </content>
 
+    <content content-id="shipping-overseas-logo">
+        <display-name xml:lang="x-default">Shipping Overseas Logo</display-name>
+        <description xml:lang="x-default">Shipping Overseas Logo</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Shipping Overseas Logo" height="130" src="images/Footer%20Images/Shipping/delivery-logo-design_1465-84.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="store-locator">
         <display-name xml:lang="x-default">Store Locator</display-name>
         <display-name xml:lang="fr-FR">Localisateur de magasins</display-name>
@@ -11456,6 +11746,17 @@ Burlington, MA 01803, USA&lt;br /&gt;&#13;
         </custom-attributes>
     </content>
 
+    <content content-id="trusted-shops-badge">
+        <display-name xml:lang="x-default">Trusted Shops Badge</display-name>
+        <description xml:lang="x-default">Badge for showing trusted shops guarantee.</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Trusted Shopping Badge" height="210" src="images/Footer%20Images/Trusted%20Shopping/Trusted%20shops.png?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="vip-apparel-pricing">
         <display-name xml:lang="x-default">VIP Apparel Pricing</display-name>
         <display-name xml:lang="fr-FR">Tarification mode vestimentaire VIP</display-name>
@@ -11473,6 +11774,17 @@ Burlington, MA 01803, USA&lt;br /&gt;&#13;
         <folder-links>
             <classification-link folder-id="marketing-pages"/>
         </folder-links>
+    </content>
+
+    <content content-id="visa-logo">
+        <display-name xml:lang="x-default">Visa Logo</display-name>
+        <description xml:lang="x-default">Visa Logo</description>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;img alt="Visa Logo" height="100" src="images/Footer%20Images/Payment/Visa.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
     </content>
 
     <content content-id="womens-clothing">

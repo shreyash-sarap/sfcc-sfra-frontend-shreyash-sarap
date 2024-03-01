@@ -1,0 +1,68 @@
+<isinclude template="/components/modules" sf-toolkit="off" />
+
+
+<div class="global-footer">
+    <div class="global-footer-section">
+        <div class="global-footer-top">
+            <iscontentasset aid="footer-top" />
+        </div>
+    </div>
+    <div class="global-footer-section">
+        <div class="global-footer-payment">
+            <div class="global-footer-payment-element">
+                <h1>Trusted Shops</h1>
+                <iscontentasset aid="trusted-shops-badge" />
+            </div>
+            <div class="global-footer-payment-element">
+                <h1>Payment Methods</h1>
+                <div class="global-footer-logos">
+                    <div class="global-footer-logo">
+                        <iscontentasset aid="pay-pal-logo" />
+                    </div>
+                    <div class="global-footer-logo">
+                        <iscontentasset aid="mastercard-logo" />
+                    </div>
+                    <div class="global-footer-logo">
+                        <iscontentasset aid="visa-logo" />
+                    </div>
+                </div>
+            </div>
+            <div class="global-footer-payment-element">
+                <h1>Shipping Services</h1>
+                <div class="global-footer-logos">
+                    <div class="global-footer-logo">
+                        <iscontentasset aid="shipping-overseas-logo" />
+                    </div>
+                    <div class="global-footer-logo">
+                        <iscontentasset aid="shipping-ground-logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="global-footer-section">
+        <div class="global-footer-cs">
+            <iscontentasset aid="footer-cs" />
+        </div>
+    </div>
+    <div class="global-footer-section">
+        <div class="global-footer-about-slot">
+            <iscontentasset aid="global-footer-about" />
+        </div>
+    </div>
+    <div class="global-footer-section">
+        <div class="global-footer-account-slot">
+            <iscontentasset aid="global-footer-account" />
+        </div>
+    </div>
+    <div class="global-footer-section">
+        <div class="global-footer-more-info">
+            <iscontentasset aid="global-footer-more-info" />
+        </div>
+    </div>
+    <div class="global-footer-section">
+        <div class="global-footer-copy-sig">
+            <iscontentasset aid="global-footer-copy" />
+        </div>
+    </div>
+</div>
