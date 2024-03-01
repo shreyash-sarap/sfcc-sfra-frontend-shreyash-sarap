@@ -1,0 +1,5 @@
+<isif condition="${slotcontent != null}">
+    <isloop items="${slotcontent.content}" var="image">
+        <isprint value="${image.custom.body}" encoding="off" />
+    </isloop>
+</isif>

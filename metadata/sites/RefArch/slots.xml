@@ -99,6 +99,26 @@ Here you will find answers to your questions about shopping at our online store,
         </content>
     </slot-configuration>
 
+    <slot-configuration slot-id="login-page-checkorder" context="global" configuration-id="New Slot Configuration - 2024-03-02 01:25:59" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-track-order-image"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="login-page-signin" context="global" configuration-id="New Slot Configuration - 2024-03-02 01:35:37" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-siginin-image"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
     <slot-configuration slot-id="noresult-banner-m" context="global" configuration-id="Noresult Banner" assigned-to-site="false">
         <template>slots/content/htmlSlotContainer.isml</template>
         <enabled-flag>false</enabled-flag>
