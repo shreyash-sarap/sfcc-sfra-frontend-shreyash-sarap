@@ -1,0 +1,56 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/login.css');
+        assets.addJs('/js/login.js');
+    </isscript>
+
+    <div class="hero slant-down login-banner">
+        <h1 class="page-title">${Resource.msg('header.hero.image.login', 'login', null)}</h1>
+    </div>
+
+    <input type="radio" id="Login" name="dummyInput" value="Login" checked>
+    <input type="radio" id="Order" name="dummyInput" value="Order">
+
+    <div class="selection-segment">
+        <label for="Login">
+            <isslot context="global" id="login-page-signin" description="returning customers image" />
+        </label>
+        <label for="Order">
+            <isslot context="global" id="login-page-checkorder" description="check your order image" />
+        </label>
+    </div>
+
+    <div class="container login-page">
+        <!---Breadcrumbs--->
+        <isinclude template="components/breadcrumbs/pageBreadcrumbs" />
+        <div class="row justify-content-center equal-height">
+            <div class="col-sm-8 col-md-6" id="field-selection" name="LoginComp">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="login-form-nav">
+                            <isinclude template="account/components/navTabs" />
+                            <div class="tab-content">
+                                <div class="tab-pane ${pdict.navTabValue === 'login' ? 'active' : ''}" id="login"
+                                    role="tabpanel" aria-labelledby="login-tab">
+                                    <isinclude template="account/components/loginForm" />
+                                    <isinclude template="account/password/requestPasswordResetModal" />
+                                    <isinclude template="account/components/oauth" />
+                                </div>
+                                <div class="tab-pane ${pdict.navTabValue === " register" ? 'active' : ''}"
+                                    id="register" role="tabpanel" aria-labelledby="register-tab">
+                                    <isinclude template="account/components/registerForm" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-6" id="field-selection" name="OrderComp">
+                <div class="card">
+                    <isinclude template="account/components/trackOrderForm" />
+                </div>
+            </div>
+        </div>
+    </div>
+</isdecorate>
