@@ -1,0 +1,7 @@
+<isdecorate template="common/layout/page">
+    <div class="filter-input">
+        <input id="sample-text" type="text" />
+        <button id="ajax-filter" class="btn btn-primary" data-toggle="modal" data-target="#filter-modal"><i
+                class="minicart-icon fa fa-shopping-bag"></i>${Resource.msg('button.msg.popup', 'popup', null)}</button>
+    </div>
+</isdecorate>

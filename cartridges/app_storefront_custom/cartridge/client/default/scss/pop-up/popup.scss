@@ -1,0 +1,21 @@
+.filter-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#filter-modal {
+    height: 30%;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
