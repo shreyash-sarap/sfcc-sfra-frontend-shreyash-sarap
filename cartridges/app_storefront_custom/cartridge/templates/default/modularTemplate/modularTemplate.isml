@@ -1,0 +1,22 @@
+<isif condition="${session.custom.pageName === 'productPage'}">
+    <div class="container modular-elem">
+        <h4>${Resource.msg('msg.nav.products', 'modularTemplate', null)}</h4>
+        <a class="btn btn-primary" href="${URLUtils.url('Home-Show')}">
+            ${Resource.msg('msg.nav.homepage', 'modularTemplate', null)}
+        </a>
+    </div>
+<iselseif condition="${session.custom.pageName === 'homePage'}" />
+    <div class="container">
+        <h4>${Resource.msg('msg.home', 'modularTemplate', null)}</h4>
+        <a class="btn btn-primary" href="${URLUtils.https('Login-Show')}">
+            ${Resource.msg('msg.nav.account', 'modularTemplate', null)}
+        </a>
+    </div>
+<iselseif condition="${session.custom.pageName === 'catLanding'}" />
+    <div class="container">
+        <h4>${Resource.msg('msg.nav.category', 'modularTemplate', null)}</h4>
+        <a class="btn btn-primary" href="${URLUtils.url('Home-Show')}">
+            ${Resource.msg('msg.nav.homepage', 'modularTemplate', null)}
+        </a>
+    </div>
+</isif>
