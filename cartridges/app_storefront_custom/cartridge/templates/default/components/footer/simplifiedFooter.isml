@@ -1,0 +1,14 @@
+<isinclude template="/components/modules" sf-toolkit="off" />
+
+<div class="global-footer">
+    <div class="global-footer-section">
+        <div class="global-footer-more-info">
+            <iscontentasset aid="global-footer-more-info" />
+        </div>
+    </div>
+    <div class="global-footer-section">
+        <div class="global-footer-copy-sig">
+            <iscontentasset aid="global-footer-copy" />
+        </div>
+    </div>
+</div>

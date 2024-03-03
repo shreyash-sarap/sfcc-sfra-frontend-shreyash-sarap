@@ -1,0 +1,150 @@
+.global-footer {
+    background-color: #00a1e0;
+    display: flex;
+    flex-direction: column;
+}
+
+.global-footer a {
+    color: white;
+}
+
+.global-footer-section {
+    flex-direction: row;
+    width: 100%;
+}
+
+/* global-footer-top */
+
+.global-footer-top {
+    display: flex;
+    width: 100%;
+    padding: 0.5% 8%;
+}
+
+/* footer-top asset */
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-top-content-col:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.footer-top-content h6 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.footer-top-content p {
+    font-size: 0.9rem;
+}
+
+/* payment section */
+
+.global-footer-payment {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 8%;
+}
+
+.global-footer-payment-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    transform: scale(0.8);
+}
+
+.global-footer-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.global-footer-logo {
+    padding: 0 0.5rem;
+}
+
+/* global-footer-account & global-footer-about */
+
+.global-footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.global-footer-list > .global-footer-list-item {
+    display: inline-block;
+}
+
+.global-footer-list-item {
+    margin-right: 1rem;
+    top: 0;
+}
+
+/* global-footer-more-info */
+.global-footer-more-info {
+    background-color: lightgray;
+    padding: 1% 8%;
+}
+
+/* global-footer-copyright */
+.global-footer-copy-sig {
+    display: flex;
+    justify-content: center;
+    padding: 0 0;
+}
+
+.global-footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* global-footer-cs */
+.footer-cs-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-cs-list-item {
+    margin-left: 25%;
+}
+
+.footer-cs-list > .footer-cs-list-item {
+    display: inline-block;
+}
+
+.global-footer-cs {
+    padding: 1% 8%;
+}
+
+.cs-services-faq {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.global-footer-account-slot {
+    padding: 1% 8%;
+}
+
+.global-footer-about-slot {
+    padding: 1% 8%;
+}
