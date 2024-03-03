@@ -5410,6 +5410,19 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <page-attributes/>
     </content>
 
+    <content content-id="desktop-banner-image">
+        <display-name xml:lang="x-default">Tree and Sunset</display-name>
+        <online-flag>true</online-flag>
+        <online-flag site-id="RefArch">true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h2 style="text-align: center;"&gt;Desktop Banner Image&lt;/h2&gt;&#13;
+&#13;
+&lt;p style="text-align: center;"&gt;&lt;img alt="" height="439" src="images/DesktopBannerImage/DesktopBannerImage.jpg?$staticlink$" title="" width="705" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="e1e2eab9a8455daecbcceda4e2">
         <display-name xml:lang="x-default">Product Tile Component</display-name>
         <type>component.commerce_assets.productTile</type>
@@ -5595,6 +5608,51 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
 &lt;p style="font-weight:bold;"&gt;如果您无法找到想要找的内容，何不让我们训练有素的员工给您推荐？&lt;/p&gt;&#13;
 &lt;p&gt;我们的客户服务代表可提供帮助。 &lt;a href="$httpsUrl(CustomerService-ContactUs)$"&gt;给我们发电子邮件&lt;/a&gt; 或致电 800-555-0199。&lt;/p&gt;&#13;
 &lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="ex-5-contentasset">
+        <display-name xml:lang="x-default">Full Width Content Asset Template</display-name>
+        <online-flag>false</online-flag>
+        <online-flag site-id="RefArch">true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div&gt;&#13;
+    &lt;span style="font-size:16px;"&gt;&lt;strong&gt;Where does it come from?&lt;/strong&gt;&lt;/span&gt;&#13;
+  &lt;p&gt;&#13;
+    &lt;span &gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.&lt;/span&gt;&#13;
+  &lt;/p&gt;&#13;
+&lt;/div&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="exercise-6-asset">
+        <display-name xml:lang="x-default">Random Images</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;div class="slider-for"&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=1" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=2" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=3" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=4" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=5" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=6" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=7" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=8" /&gt;&lt;/span&gt;&#13;
+    &lt;/div&gt;&#13;
+    &lt;div class="slider-nav"&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=1" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=2" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=3" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=4" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=5" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=6" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=7" /&gt;&lt;/span&gt;&#13;
+        &lt;span&gt;&lt;img src="https://source.unsplash.com/random/200x200?city?night=8" /&gt;&lt;/span&gt;&#13;
+    &lt;/div&gt;</custom-attribute>
         </custom-attributes>
     </content>
 
@@ -6159,7 +6217,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'privacy-policy')$" title="Go to Privacy"&gt;Privacy&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'terms')$" title="Go to Terms"&gt;Terms&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'jobs-landing')$" title="Go to Jobs"&gt;Jobs&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;</custom-attribute>
+                &lt;/ul&gt;&lt;!-- END: footer_about --&gt;&#13;
+&lt;span&gt;FOUND IT&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;À propos&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;À propos&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-about"class="menu-footer content"&gt;&#13;
                 &lt;li&gt;&lt;a href="$url('Page-Show', 'cid', 'about-us')$" title="Aller à À propos de nous"&gt;À propos de nous&lt;/a&gt;&lt;/li&gt;&#13;
@@ -6207,7 +6266,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="$httpsURL('Order-History')$" title="Go to Check Order"&gt;Check Order&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;!-- &lt;li&gt;&lt;a href="$httpsURL('Wishlist-Search')$" title="Go to Wishlist"&gt;Find a Wishlist&lt;/a&gt;&lt;/li&gt; --&gt;&#13;
                 &lt;!-- &lt;li&gt;&lt;a href="$httpsURL('GiftRegistry-Landing')$" title="Go to Gift Registry"&gt;Gift Registry&lt;/a&gt;&lt;/li&gt; --&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer-account --&gt;</custom-attribute>
+                &lt;/ul&gt;&lt;!-- END: footer-account --&gt;&#13;
+&lt;span&gt;FOUND IT&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-account"&gt;Compte&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Compte&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-account"class="menu-footer content"&gt;&#13;
                 &lt;li&gt;&lt;a href="$httpsURL('Account-Show')$" title="Aller à Mon compte"&gt;Mon compte&lt;/a&gt;&lt;/li&gt;&#13;
@@ -6278,7 +6338,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
         <page-attributes/>
         <custom-attributes>
             <custom-attribute attribute-id="body" xml:lang="x-default">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Locate Store&lt;/h2&gt;&lt;/a&gt;&#13;
-                &lt;span class="content"&gt;The Store Locator is designed to help you find the closest store near you.&lt;/span&gt;</custom-attribute>
+                &lt;span class="content"&gt;The Store Locator is designed to help you find the closest store near you.&lt;/span&gt;&#13;
+&lt;span&gt;FOUND IT &lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Localiser des magasins&lt;/h2&gt;&lt;/a&gt;&#13;
                 &lt;span class="content"&gt;Le localisateur de magasins vous aide à trouver le magasin le plus proche.&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="it-IT">&lt;a href="$httpsURL('Stores-Find', 'showMap', true, 'horizontalView', true, 'isForm', true)$" class="menu-footer locate-store"&gt;&lt;h2&gt;Trova negozio&lt;/h2&gt;&lt;/a&gt;&#13;
@@ -6354,7 +6415,8 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Go to Gift Certificates"&gt;Gift Certificates&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Go to Help"&gt;Help&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Go to Site Map"&gt;Site Map&lt;/a&gt;&lt;/li&gt;&#13;
-                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
+                &lt;/ul&gt;&lt;!-- END: footer_support --&gt;&#13;
+&lt;span&gt;FOUND IT&lt;/span&gt;</custom-attribute>
             <custom-attribute attribute-id="body" xml:lang="fr-FR">&lt;div&gt;&lt;button class="title btn text-left btn-block d-sm-none" aria-expanded="false" aria-controls="collapsible-customer-service"&gt;Service client&lt;/button&gt;&lt;h2 class="title d-none d-sm-block"&gt;Service client&lt;/h2&gt;&lt;/div&gt;&#13;
                 &lt;ul id="collapsible-customer-service"class="menu-footer content"&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="Aller à Contactez-nous"&gt;Contactez-nous&lt;/a&gt;&lt;/li&gt;&#13;
@@ -6383,6 +6445,16 @@ Sintonizzatore esterno ATSC DTB-H260F Samsung&lt;/div&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往帮助"&gt;寻求帮助&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;li&gt;&lt;a href="#" title="前往站点地图"&gt;站点地图&lt;/a&gt;&lt;/li&gt;&#13;
                 &lt;/ul&gt;&lt;!-- END: footer_support --&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="free-shipping-text">
+        <display-name xml:lang="x-default">Free Shipping over US$ 50.00</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h5 style="text-align: center;"&gt;Free Shipping over US$ 50.00&lt;/h5&gt;</custom-attribute>
         </custom-attributes>
     </content>
 
