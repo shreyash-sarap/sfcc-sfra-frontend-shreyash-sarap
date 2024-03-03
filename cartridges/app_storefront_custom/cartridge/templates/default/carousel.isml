@@ -1,7 +1,10 @@
 <isdecorate template="common/layout/page">
     <isinclude template="/components/modules" sf-toolkit="off" />
+    <isinclude template="abc.isml" sf-toolkit="off" />
 
     <body>
         <iscontentasset aid="exercise-6-asset" />
+
+
     </body>
 </isdecorate>
