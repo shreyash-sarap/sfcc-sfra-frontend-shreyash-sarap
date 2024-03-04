@@ -1,0 +1,140 @@
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+    <group formid="customer">
+        <field
+            formid="firstname"
+            label="label.input.firstname.profile"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            range-error="error.message.50orless"
+            type="string" />
+        <field
+            formid="lastname"
+            label="label.input.lastname.profile"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            range-error="error.message.50orless"
+            type="string" />
+        <field
+            formid="address1"
+            label="label.input.address1"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            range-error="error.message.50orless"
+            regexp="\d{1,5}\s\w.\s(\b\w*\b\s){1,2}\w*\."
+            value-error="ValueErrorText"
+            type="string" />
+        <field
+            formid="address2"
+            label="label.input.address2"
+            max-length="50"
+            range-error="error.message.50orless"
+            regexp="^\d{1,5}\s\w.\s(\b\w*\b\s){1,2}\w*\."
+            value-error="ValueErrorText"
+            type="string" />
+        <field
+            formid="country"
+            label="label.input.country"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            parse-error="error.message.parse.email.profile.form"
+            range-error="error.message.50orless"
+            regexp="[A-Z][a-z]+(?: +[A-Z][a-z]+)*"
+            value-error="ValueErrorText"
+            type="string" />
+        <field
+            formid="zipcode"
+            label="label.input.zipcode"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            parse-error="error.message.parse.zip"
+            range-error="error.message.50orless"
+            regexp="^^[0-9]{5}(?:-[0-9]{4})?$"
+            value-error="ValueErrorText"
+            type="string" />
+        <field
+            formid="state"
+            label="label.input.state"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            parse-error="error.message.parse.email.profile.form"
+            range-error="error.message.50orless"
+            regexp="[A-Z][a-z]+(?: +[A-Z][a-z]+)*"
+            value-error="ValueErrorText"
+            type="string" />
+        <field
+            formid="phonenumber"
+            label="label.input.phonenumber"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            range-error="error.message.50orless"
+            regexp="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"
+            value-error="ValueErrorText"
+            type="string" />
+        <field
+            formid="comment"
+            label="label.input.comment"
+            max-length="150"
+            parse-error="error.message.parse.email.profile.form"
+            range-error="error.message.150orless"
+            value-error="ValueErrorText"
+            type="string" />
+    </group>
+    <group formid="paymentdetails">
+        <field
+            formid="cardnumber"
+            label="label.input.creditcard.number"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            range-error="error.message.50orless"
+            type="string" />
+        <field
+            formid="expirationmonth"
+            label="label.input.payment.expirationmonth"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            range-error="error.message.50orless"
+            type="date" />
+        <field
+            formid="expirationyear"
+            label="label.input.payment.expirationyear"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            parse-error="error.message.parse.expirationyear.payment.form"
+            range-error="error.message.50orless"
+            regexp="^[12][0-9]{3}$"
+            value-error="ValueErrorText"
+            type="date" />
+        <field
+            formid="securitycode"
+            label="label.input.creditcard.securitycode"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            parse-error="error.message.parse.email.profile.form"
+            range-error="error.message.50orless"
+            regexp="/^[0-9]{3,4}$/"
+            value-error="ValueErrorText"
+            type="string" />
+        <field
+            formid="email"
+            label="label.input.email.profile"
+            mandatory="true"
+            max-length="50"
+            missing-error="error.message.required"
+            parse-error="error.message.parse.email.profile.form"
+            range-error="error.message.50orless"
+            regexp="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+            value-error="ValueErrorText"
+            type="string" />
+    </group>
+</form>

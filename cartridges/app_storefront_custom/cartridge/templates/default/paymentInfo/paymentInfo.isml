@@ -1,0 +1,272 @@
+<isdecorate template="common/layout/page">
+    <div class="form-container">
+        <div class="container">
+            <div class="col">
+                <form action="${pdict.actionUrl}" class="payment-form" method="POST"
+                    name="${pdict.profileForm.htmlName}">
+
+                    <div class="form-section">
+                        <div class="form-title">
+                            <h3>
+                                <isprint value="${Resource.msg('paymentInfo.form.title.top', 'forms', null)}"
+                                    encoding="htmlcontent" />
+                            </h3>
+                        </div>
+
+                        <div class="form-inner-block">
+                            <div class="form-group
+                                <isif condition=" ${!!pdict.profileForm.customer.firstname.mandatory === true}">required
+                                </isif>">
+                                <label class="form-control-label" for="firstname">
+                                    <isprint value="${pdict.profileForm.customer.firstname.label}"
+                                        encoding="htmlcontent" />
+                                </label>
+                                <input type="text" class="form-control" id="firstname" <isprint
+                                    value=${pdict.profileForm.customer.firstname.attributes} encoding="off" />>
+                                <div class="invalid-feedback" id="form-fname-error"></div>
+                            </div>
+
+                            <div class="form-group
+                                <isif condition=" ${!!pdict.profileForm.customer.lastname.mandatory === true}">required
+                                </isif>">
+                                <label class="form-control-label" for="lastname">
+                                    <isprint value="${pdict.profileForm.customer.lastname.label}"
+                                        encoding="htmlcontent" />
+                                </label>
+                                <input type="text" class="form-control" id="lastname" <isprint
+                                    value=${pdict.profileForm.customer.lastname.attributes} encoding="off" />>
+                                <div class="invalid-feedback" id="form-lname-error"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition=" ${!!pdict.profileForm.customer.address1.mandatory === true}">required
+                            </isif>">
+                            <label class="form-control-label" for="address1">
+                                <isprint value="${pdict.profileForm.customer.address1.label}" encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="address1" <isprint
+                                value=${pdict.profileForm.customer.address1.attributes} encoding="off" />>
+                            <div class="invalid-feedback" id="form-add1-error"></div>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition=" ${!!pdict.profileForm.customer.address2.mandatory === true}">required
+                            </isif>">
+                            <label class="form-control-label" for="lastname">
+                                <isprint value="${pdict.profileForm.customer.address2.label}" encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="address2" <isprint
+                                value=${pdict.profileForm.customer.address2.attributes} encoding="off" />>
+                            <div class="invalid-feedback" id="form-add2-error"></div>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition=" ${!!pdict.profileForm.customer.country.mandatory === true}">required</isif>
+                            ">
+                            <label class="form-control-label" for="country">
+                                <isprint value="${pdict.profileForm.customer.country.label}" encoding="htmlcontent" />
+                            </label>
+                            <select name="country" class="form-control" id="country" <isprint
+                                value=${pdict.profileForm.customer.country.attributes} encoding="off">><option
+                                    value="usa">USA</option> </select>
+                            <div class="invalid-feedback" id="form-country-error"></div>
+
+                        </div>
+
+                        <div class="form-group
+                            <isif condition=" ${!!pdict.profileForm.customer.zipcode.mandatory === true}">required</isif>
+                            ">
+                            <label class="form-control-label" for="lastname">
+                                <isprint value="${pdict.profileForm.customer.zipcode.label}" encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="zipcode" <isprint
+                                value=${pdict.profileForm.customer.zipcode.attributes} encoding="off" />>
+                            <div class="invalid-feedback" id="form-zip-error"></div>
+                            <span>"${Resource.msg("example.postalcode", "forms", null)}"</span>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition=" ${!!pdict.profileForm.customer.state.mandatory === true}">required</isif>">
+                            <label class="form-control-label" for="state">
+                                <isprint value="${pdict.profileForm.customer.state.label}" encoding="htmlcontent" />
+                            </label>
+                            <select class="form-control" id="State" <isprint
+                                value=${pdict.profileForm.customer.state.attributes} encoding="off" />>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                            </select>
+                            <div class="invalid-feedback" id="form-state-error"></div>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition=" ${!!pdict.profileForm.customer.lastname.mandatory === true}">required
+                            </isif>">
+                            <label class="form-control-label" for="phonenumber">
+                                <isprint value="${pdict.profileForm.customer.phonenumber.label}"
+                                    encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="phone-number" <isprint
+                                value=${pdict.profileForm.customer.phonenumber.attributes} encoding="off" />>
+                            <div class="invalid-feedback" id="form-phonenumber-error"></div>
+                            <span>"${Resource.msg("example.phone", "forms", null)}"</span>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition=" ${!!pdict.profileForm.customer.comment.mandatory === true}">required</isif>
+                            ">
+                            <label class="form-control-label" for="comment">
+                                <isprint value="${pdict.profileForm.customer.comment.label}" encoding="htmlcontent" />
+                            </label>
+                            <input size="150" type="text" class="form-control" id="comment" <isprint
+                                value=${pdict.profileForm.customer.comment.attributes} encoding="off" />>
+                            <div class="invalid-feedback" id="form-comment-error"></div>
+                            <span id="remaining-chars">You have 150 charcaters left out of 150.</span>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <div class="form-title">
+                            <h3>
+                                <isprint value="${Resource.msg('paymentInfo.form.title.bottom', 'forms', null)}"
+                                    encoding="htmlcontent" />
+                            </h3>
+                        </div>
+
+                        <div class="form-group <isif condition="
+                            ${!!pdict.profileForm.paymentdetails.cardnumber.mandatory === true}">required</isif>">
+                            <label class="form-control-label" for="cardnumber">
+                                <isprint value="${pdict.profileForm.paymentdetails.cardnumber.label}"
+                                    encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="cardnumber" <isprint
+                                value=${pdict.profileForm.paymentdetails.cardnumber.attributes} encoding="off" />>
+                            <div class="invalid-feedback" id="form-cardnumber-error"></div>
+                        </div>
+
+                        <div class="form-inner-block">
+                            <div class="form-group
+                                <isif condition="
+                                ${!!pdict.profileForm.paymentdetails.expirationmonth.mandatory === true}">
+                                required</isif>">
+                                <label class="form-control-label" for="expirationmonth">
+                                    <isprint value="${pdict.profileForm.paymentdetails.expirationmonth.label}"
+                                        encoding="htmlcontent" />
+                                </label>
+                                <input type="month" min="2024-03" value="2024-03" class="form-control"
+                                    id="expirationmonth" <isprint
+                                    value=${pdict.profileForm.paymentdetails.expirationmonth.attributes}
+                                    encoding="off" />>
+                                <div class="invalid-feedback" id="form-expirationmonth-error"></div>
+                            </div>
+
+                            <div class="form-group
+                                <isif condition="
+                                ${!!pdict.profileForm.paymentdetails.expirationyear.mandatory === true}">
+                                required</isif>">
+                                <label class="form-control-label" for="expirationeyear">
+                                    <isprint value="${pdict.profileForm.paymentdetails.expirationyear.label}"
+                                        encoding="htmlcontent" />
+                                </label>
+                                <input type="text" class="form-control" id="expirationyear" <isprint
+                                    value=${pdict.profileForm.paymentdetails.expirationyear.attributes}
+                                    encoding="off" />>
+                                <div class="invalid-feedback" id="form-expirationyear-error"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class=" form-control-label" for="securitycode">
+                                    <isprint value="${pdict.profileForm.paymentdetails.securitycode.label}"
+                                        encoding="htmlcontent" />
+                                </label>
+                                <input type="text" class="form-control" id="securitycode" <isprint
+                                    value=${pdict.profileForm.paymentdetails.securitycode.attributes} encoding="off" />>
+                                <div class="invalid-feedback" id="form-securitycode-error"></div>
+                            </div>
+
+                            <div class="form-group
+                                <isif condition=" ${!!pdict.profileForm.paymentdetails.email.mandatory === true}">
+                                required</isif>
+                                ">
+                                <label class="form-control-label" for="email">
+                                    <isprint value="${pdict.profileForm.paymentdetails.email.label}"
+                                        encoding="htmlcontent" />
+                                </label>
+                                <input type="email" class="form-control" id="email" <isprint
+                                    value=${pdict.profileForm.paymentdetails.email.attributes} encoding="off" />>
+                                <div class="invalid-feedback" id="form-lname-error"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <input type="hidden" name="${pdict.csrf.tokenName}" value="${pdict.csrf.token}" />
+                    <div class="save-card">
+                        <input id="save-card" type="checkbox"><label for="save-card">${Resource.msg('label.save.card', 'forms', null)}</label>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit" id="sub-button" class="btn btn-block btn-primary">
+                            ${Resource.msg('Save', 'registration', null)}
+                        </button>
+                        <button class="back-to-top" title="${Resource.msg('button.back_to_top', 'common', null)}"
+                            aria-label="${Resource.msg('button.back_to_top', 'common', null)}">
+                            <span class="fa-stack fa-lg" aria-hidden="true">
+                                <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+                                <i class="fa fa-arrow-up fa-stack-1x"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</isdecorate>
