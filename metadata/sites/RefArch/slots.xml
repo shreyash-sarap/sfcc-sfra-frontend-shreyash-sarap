@@ -99,6 +99,26 @@ Here you will find answers to your questions about shopping at our online store,
         </content>
     </slot-configuration>
 
+    <slot-configuration slot-id="login-page-checkorder" context="global" configuration-id="New Slot Configuration - 2024-03-02 01:25:59" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-track-order-image"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="login-page-signin" context="global" configuration-id="New Slot Configuration - 2024-03-02 01:35:37" default="true" assigned-to-site="false">
+        <template>slots/content/loginAccordion.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="login-siginin-image"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
     <slot-configuration slot-id="noresult-banner-m" context="global" configuration-id="Noresult Banner" assigned-to-site="false">
         <template>slots/content/htmlSlotContainer.isml</template>
         <enabled-flag>false</enabled-flag>
@@ -642,6 +662,26 @@ Here you will find answers to your questions about shopping at our online store,
             <content-assets>
                 <content-asset content-id="search-result-banner"/>
             </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="slider" context="global" configuration-id="slider" default="true" assigned-to-site="true">
+        <description>Slider for ten Products</description>
+        <template>slots/product/productSlider.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="22962004M"/>
+                <product product-id="25050730M"/>
+                <product product-id="25502848M"/>
+                <product product-id="25518360M"/>
+                <product product-id="25517958M"/>
+                <product product-id="25518647M"/>
+                <product product-id="25518921M"/>
+                <product product-id="25564426M"/>
+                <product product-id="25565189M"/>
+                <product product-id="25565770M"/>
+            </products>
         </content>
     </slot-configuration>
 
