@@ -1,12 +1,12 @@
 <isdecorate template="common/layout/page">
     <isinclude template="components/modules" sf-toolkit="off" />
-    <script src="${pdict.carouselURLs.jqueryslickURL}"></script>
-    <script src="${pdict.carouselURLs.slickURL}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
-
 
     <div>
         <iscontentasset aid="exercise-6-asset" />
