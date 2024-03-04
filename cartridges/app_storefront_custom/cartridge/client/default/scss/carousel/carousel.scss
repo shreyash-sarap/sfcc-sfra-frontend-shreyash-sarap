@@ -1,0 +1,28 @@
+.slick-prev:before,
+.slick-next:before {
+    color: #000000 !important;
+}
+
+.slider-for {
+    margin: 5% auto;
+    width: 80%;
+}
+
+.slider-for img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.slider-nav {
+    margin: 5% auto;
+    width: 80%;
+}
+
+.slider-nav img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.slick-slide.slick-current.slick-active {
+    text-align: center;
+}
