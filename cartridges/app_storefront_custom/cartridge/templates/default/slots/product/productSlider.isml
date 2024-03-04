@@ -1,0 +1,6 @@
+<isif condition="${slotcontent != null}">
+    <isloop items="${slotcontent.content}" var="product" status="loopState">
+        <isinclude
+            url="${URLUtils.url('Tile-Show', 'pid', product.ID, 'pview', 'tile', 'ratings', true, 'swatches', true)}" />
+    </isloop>
+</isif>

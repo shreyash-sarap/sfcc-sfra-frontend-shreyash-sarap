@@ -1,0 +1,23 @@
+.slick-prev:before,
+.slick-next:before {
+    color: #000000 !important;
+}
+
+.slider {
+    margin: 5% auto;
+    width: 50%;
+}
+
+.tile-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-body div:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
